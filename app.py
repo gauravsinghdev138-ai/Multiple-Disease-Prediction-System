@@ -114,7 +114,7 @@ with st.sidebar:
             if st.button("Clear All History"): st.session_state.history = []; st.rerun()
 
     st.info("💡 **Tip:** Ensure you enter lab values accurately from clinical reports for best results.")
-    st.caption("Developed by Sudhir • MSc Final Year Project 2026")
+    st.caption("Developed by Sudhir /n MSc Final Year Project 2026")
 
 # --- 6. DIABETES PAGE ---
 if selected == 'Diabetes Prediction':
